@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="mvk" default="all">
+  
+  
+  <property file="build.properties"/>
+  <!-- Uncomment the following property if no tests compilation is needed -->
+  <!-- 
+  <property name="skip.tests" value="true"/>
+   -->
+  
+  <!-- Compiler options -->
+  
+  <property name="compiler.debug" value="on"/>
+  <property name="compiler.generate.no.warnings" value="off"/>
+  <property name="compiler.args" value=""/>
+  <property name="compiler.max.memory" value="128m"/>
+  <patternset id="ignored.files">
+    <exclude name="**/CVS/**"/>
+    <exclude name="**/SCCS/**"/>
+    <exclude name="**/RCS/**"/>
+    <exclude name="**/rcs/**"/>
+    <exclude name="**/.DS_Store/**"/>
+    <exclude name="**/.svn/**"/>
+    <exclude name="**/.pyc/**"/>
+    <exclude name="**/.pyo/**"/>
+    <exclude name="**/*.pyc/**"/>
+    <exclude name="**/*.pyo/**"/>
+    <exclude name="**/.git/**"/>
+    <exclude name="**/*.hprof/**"/>
+    <exclude name="**/_svn/**"/>
+    <exclude name="**/.hg/**"/>
+    <exclude name="**/*.lib/**"/>
+    <exclude name="**/*~/**"/>
+    <exclude name="**/__pycache__/**"/>
+    <exclude name="**/.bundle/**"/>
+    <exclude name="**/*.rbc/**"/>
+  </patternset>
+  <patternset id="library.patterns">
+    <include name="*.zip"/>
+    <include name="*.apk"/>
+    <include name="*.war"/>
+    <include name="*.egg"/>
+    <include name="*.ear"/>
+    <include name="*.ane"/>
+    <include name="*.swc"/>
+    <include name="*.jar"/>
+  </patternset>
+  <patternset id="compiler.resources">
+    <exclude name="**/?*.java"/>
+    <exclude name="**/?*.form"/>
+    <exclude name="**/?*.class"/>
+    <exclude name="**/?*.groovy"/>
+    <exclude name="**/?*.scala"/>
+    <exclude name="**/?*.flex"/>
+    <exclude name="**/?*.kt"/>
+    <exclude name="**/?*.clj"/>
+  </patternset>
+  
+  <!-- JDK definitions -->
+  
+  <property name="jdk.bin.1.7" value="${jdk.home.1.7}/bin"/>
+  <path id="jdk.classpath.1.7">
+    <fileset dir="${jdk.home.1.7}">
+      <include name="jre/lib/charsets.jar"/>
+      <include name="jre/lib/deploy.jar"/>
+      <include name="jre/lib/javaws.jar"/>
+      <include name="jre/lib/jce.jar"/>
+      <include name="jre/lib/jfr.jar"/>
+      <include name="jre/lib/jfxrt.jar"/>
+      <include name="jre/lib/jsse.jar"/>
+      <include name="jre/lib/management-agent.jar"/>
+      <include name="jre/lib/plugin.jar"/>
+      <include name="jre/lib/resources.jar"/>
+      <include name="jre/lib/rt.jar"/>
+      <include name="jre/lib/ext/access-bridge-64.jar"/>
+      <include name="jre/lib/ext/dnsns.jar"/>
+      <include name="jre/lib/ext/jaccess.jar"/>
+      <include name="jre/lib/ext/localedata.jar"/>
+      <include name="jre/lib/ext/sunec.jar"/>
+      <include name="jre/lib/ext/sunjce_provider.jar"/>
+      <include name="jre/lib/ext/sunmscapi.jar"/>
+      <include name="jre/lib/ext/zipfs.jar"/>
+    </fileset>
+  </path>
+  
+  <property name="project.jdk.home" value="${jdk.home.1.7}"/>
+  <property name="project.jdk.bin" value="${jdk.bin.1.7}"/>
+  <property name="project.jdk.classpath" value="jdk.classpath.1.7"/>
+  
+  
+  <!-- Project Libraries -->
+  
+  <path id="library.selenium-server-standalone-2.35.0.classpath">
+    <pathelement location="${basedir}/lib/selenium-server-standalone-2.35.0.jar"/>
+  </path>
+  
+  <path id="library.sikuli-api-1.0.2-standalone.classpath">
+    <pathelement location="${basedir}/lib/sikuli-api-1.0.2-standalone.jar"/>
+  </path>
+  
+  <path id="library.slf4j-nop-1.7.5.classpath">
+    <pathelement location="${basedir}/lib/slf4j-nop-1.7.5.jar"/>
+  </path>
+  
+  <path id="library.sqljdbc4.classpath">
+    <pathelement location="${basedir}/lib/sqljdbc4.jar"/>
+  </path>
+  
+  <!-- Modules -->
+  
+  
+  <!-- Module MVK -->
+  
+  <dirname property="module.mvk.basedir" file="${ant.file}"/>
+  
+  
+  <property name="module.jdk.home.mvk" value="${project.jdk.home}"/>
+  <property name="module.jdk.bin.mvk" value="${project.jdk.bin}"/>
+  <property name="module.jdk.classpath.mvk" value="${project.jdk.classpath}"/>
+  
+  <property name="compiler.args.mvk" value="${compiler.args}"/>
+  
+  <property name="mvk.output.dir" value="${module.mvk.basedir}/out/production/MVK"/>
+  <property name="mvk.testoutput.dir" value="${module.mvk.basedir}/out/test/MVK"/>
+  
+  <path id="mvk.module.bootclasspath">
+    <!-- Paths to be included in compilation bootclasspath -->
+  </path>
+  
+  <path id="mvk.module.production.classpath">
+    <path refid="${module.jdk.classpath.mvk}"/>
+    <path refid="library.sikuli-api-1.0.2-standalone.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+    <path refid="library.slf4j-nop-1.7.5.classpath"/>
+    <path refid="library.selenium-server-standalone-2.35.0.classpath"/>
+  </path>
+  
+  <path id="mvk.runtime.production.module.classpath">
+    <pathelement location="${mvk.output.dir}"/>
+    <path refid="library.sikuli-api-1.0.2-standalone.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+    <path refid="library.slf4j-nop-1.7.5.classpath"/>
+    <path refid="library.selenium-server-standalone-2.35.0.classpath"/>
+  </path>
+  
+  <path id="mvk.module.classpath">
+    <path refid="${module.jdk.classpath.mvk}"/>
+    <pathelement location="${mvk.output.dir}"/>
+    <path refid="library.sikuli-api-1.0.2-standalone.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+    <path refid="library.slf4j-nop-1.7.5.classpath"/>
+    <path refid="library.selenium-server-standalone-2.35.0.classpath"/>
+  </path>
+  
+  <path id="mvk.runtime.module.classpath">
+    <pathelement location="${mvk.testoutput.dir}"/>
+    <pathelement location="${mvk.output.dir}"/>
+    <path refid="library.sikuli-api-1.0.2-standalone.classpath"/>
+    <path refid="library.sqljdbc4.classpath"/>
+    <path refid="library.slf4j-nop-1.7.5.classpath"/>
+    <path refid="library.selenium-server-standalone-2.35.0.classpath"/>
+  </path>
+  
+  
+  <patternset id="excluded.from.module.mvk">
+    <patternset refid="ignored.files"/>
+  </patternset>
+  
+  <patternset id="excluded.from.compilation.mvk">
+    <patternset refid="excluded.from.module.mvk"/>
+  </patternset>
+  
+  <path id="mvk.module.sourcepath">
+    <dirset dir="${module.mvk.basedir}">
+      <include name="src"/>
+    </dirset>
+  </path>
+  
+  
+  <target name="compile.module.mvk" depends="compile.module.mvk.production,compile.module.mvk.tests" description="Compile module MVK"/>
+  
+  <target name="compile.module.mvk.production" description="Compile module MVK; production classes">
+    <mkdir dir="${mvk.output.dir}"/>
+    <javac destdir="${mvk.output.dir}" debug="${compiler.debug}" nowarn="${compiler.generate.no.warnings}" memorymaximumsize="${compiler.max.memory}" fork="true" executable="${module.jdk.bin.mvk}/javac">
+      <compilerarg line="${compiler.args.mvk}"/>
+      <bootclasspath refid="mvk.module.bootclasspath"/>
+      <classpath refid="mvk.module.production.classpath"/>
+      <src refid="mvk.module.sourcepath"/>
+      <patternset refid="excluded.from.compilation.mvk"/>
+    </javac>
+    
+    <copy todir="${mvk.output.dir}">
+      <fileset dir="${module.mvk.basedir}/src">
+        <patternset refid="compiler.resources"/>
+        <type type="file"/>
+      </fileset>
+    </copy>
+  </target>
+  
+  <target name="compile.module.mvk.tests" depends="compile.module.mvk.production" description="compile module MVK; test classes" unless="skip.tests"/>
+  
+  <target name="clean.module.mvk" description="cleanup module">
+    <delete dir="${mvk.output.dir}"/>
+    <delete dir="${mvk.testoutput.dir}"/>
+  </target>
+  
+  <target name="init" description="Build initialization">
+    <!-- Perform any build initialization in this target -->
+  </target>
+  
+  <target name="clean" depends="clean.module.mvk" description="cleanup all"/>
+  
+  <target name="build.modules" depends="init, clean, compile.module.mvk" description="build all modules"/>
+  
+  <target name="init.artifacts">
+    <property name="artifacts.temp.dir" value="${basedir}/__artifacts_temp"/>
+    <property name="artifact.output.mvk" value="D:/SVN/trunk/tests/MVK-EGIS"/>
+    <mkdir dir="${artifacts.temp.dir}"/>
+    <property name="temp.jar.path.mvk.jar" value="${artifacts.temp.dir}/mvk.jar"/>
+  </target>
+  
+  <target name="artifact.mvk" depends="init.artifacts, compile.module.mvk" description="Build &#39;mvk&#39; artifact">
+    <property name="artifact.temp.output.mvk" value="${artifacts.temp.dir}/mvk"/>
+    <mkdir dir="${artifact.temp.output.mvk}"/>
+    <jar destfile="${temp.jar.path.mvk.jar}" duplicate="preserve" filesetmanifest="mergewithoutmain">
+      <zipfileset dir="${mvk.output.dir}"/>
+      <zipfileset file="${basedir}/lib/sikuli-api-1.0.2-standalone.jar"/>
+      <zipfileset file="${basedir}/lib/sqljdbc4.jar"/>
+      <zipfileset file="${basedir}/META-INF/MANIFEST.MF" prefix="META-INF"/>
+      <zipfileset file="${basedir}/lib/slf4j-nop-1.7.5.jar"/>
+      <zipfileset file="${basedir}/lib/selenium-server-standalone-2.35.0.jar"/>
+    </jar>
+    <copy file="${temp.jar.path.mvk.jar}" tofile="${artifact.temp.output.mvk}/mvk.jar"/>
+  </target>
+  
+  <target name="build.all.artifacts" depends="artifact.mvk" description="Build all artifacts">
+    <mkdir dir="${artifact.output.mvk}"/>
+    <copy todir="${artifact.output.mvk}">
+      <fileset dir="${artifact.temp.output.mvk}"/>
+    </copy>
+    
+    <!-- Delete temporary files -->
+    <delete dir="${artifacts.temp.dir}"/>
+  </target>
+  
+  <target name="all" depends="build.modules, build.all.artifacts" description="build all"/>
+</project>
