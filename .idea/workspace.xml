@@ -14,7 +14,7 @@
     <file path="/pageControl.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1379585568343" ignored="false" />
     <file path="/pageControls.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1379940536228" ignored="false" />
     <file path="/TestForMultimap.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381472815190" ignored="false" />
-    <file path="/MainTest.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382530998199" ignored="false" />
+    <file path="/MainTest.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1383810309827" ignored="false" />
     <file path="/layersPage.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1380106045664" ignored="false" />
     <file path="/bidPage.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1379592701478" ignored="false" />
     <file path="D:/SelYANAO/src/page/Page.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1380279351050" ignored="false" />
@@ -31,7 +31,7 @@
     <file path="/TestForSideBar.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381836256233" ignored="false" />
     <file path="/JdbcUtils.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381831638249" ignored="false" />
     <file path="/BidPage.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381138256241" ignored="false" />
-    <file path="/Dummy.txt" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381824319449" ignored="false" />
+    <file path="/Dummy.txt" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1383805630055" ignored="false" />
     <file path="D:/test/src/Shape.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382438221199" ignored="false" />
     <file path="D:/test/.idea/misc.xml" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382438225054" ignored="false" />
     <file path="D:/test/.idea/workspace.xml" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382438225054" ignored="false" />
@@ -119,7 +119,7 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/TestForPopupLayers.java" line="95" class="TestForPopupLayers" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/TestForPopupLayers.java" line="96" class="TestForPopupLayers" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -134,7 +134,22 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
-      <breakpoint url="file://$PROJECT_DIR$/src/TestForPopupLayers.java" line="92" class="TestForPopupLayers" package="">
+      <breakpoint url="file://$PROJECT_DIR$/src/TestForPopupLayers.java" line="93" class="TestForPopupLayers" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/TestForPopupLayers.java" line="73" class="TestForPopupLayers" package="">
         <option name="ENABLED" value="true" />
         <option name="LOG_ENABLED" value="false" />
         <option name="LOG_EXPRESSION_ENABLED" value="false" />
@@ -160,10 +175,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="TestForSideBar.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="TestForSideBar.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestForSideBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="41" column="16" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.019428572">
+            <state line="41" column="16" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -208,16 +223,16 @@
       <file leaf-file-name="MainTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/utils/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="12" selection-start="1072" selection-end="1075" vertical-scroll-proportion="0.0">
+            <state line="34" column="64" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestForPopupLayers.java" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="TestForPopupLayers.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestForPopupLayers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="34" selection-start="4605" selection-end="4605" vertical-scroll-proportion="0.0">
+            <state line="94" column="120" selection-start="4036" selection-end="4036" vertical-scroll-proportion="0.9089286">
               <folding />
             </state>
           </provider>
@@ -239,11 +254,19 @@
       <setting name="OPEN_NEW_TAB" value="false" />
     </FindUsagesManager>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitLogSettings">
+    <option name="myStructureFilterPaths" />
+    <option name="myDateState">
+      <MyDateState />
+    </option>
+  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/Page/WellPage.java" />
-        <option value="$PROJECT_DIR$/src/TestForPopupLayers.java" />
         <option value="$PROJECT_DIR$/src/TestForMultimap.java" />
         <option value="$PROJECT_DIR$/src/esteru/selenium/factory/samples/VariousBrowsersWebDriverSample.java" />
         <option value="$PROJECT_DIR$/src/esteru/selenium/factory/samples/NoInitWebDriverSample.java" />
@@ -256,8 +279,9 @@
         <option value="$PROJECT_DIR$/src/utils/MouseOnMap.java" />
         <option value="$PROJECT_DIR$/src/Page/MainPage.java" />
         <option value="$PROJECT_DIR$/src/TestForTool.java" />
-        <option value="$PROJECT_DIR$/src/utils/MainTest.java" />
         <option value="$PROJECT_DIR$/src/TestForSideBar.java" />
+        <option value="$PROJECT_DIR$/src/TestForPopupLayers.java" />
+        <option value="$PROJECT_DIR$/src/utils/MainTest.java" />
       </list>
     </option>
   </component>
@@ -286,7 +310,7 @@
       </profile-state>
     </entry>
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
     <OptionsSetting value="true" id="Remove" />
     <OptionsSetting value="true" id="Checkout" />
@@ -312,6 +336,27 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MVK" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="PackagesPane">
         <subPane>
           <PATH>
@@ -386,40 +431,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MVK" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -428,13 +452,13 @@
     <property name="GoToClass.includeLibraries" value="false" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="options.lastSelected" value="settings.github" />
     <property name="project.structure.side.proportion" value="0.28968713" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -445,7 +469,7 @@
       <recent name="D:\MVK\Tests" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.TestForSideBar.testTransitionToMap">
+  <component name="RunManager" selected="JUnit.TestForTool">
     <configuration default="false" name="TestForPopupLayers" type="JUnit" factoryName="JUnit" temporary="true">
       <module name="MVK" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -465,34 +489,6 @@
       <envs />
       <patterns />
       <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestForPopupLayers.testSwitchOnAllSecondLvlLayers" type="JUnit" factoryName="JUnit" temporary="true">
-      <module name="MVK" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestForPopupLayers" />
-      <option name="METHOD_NAME" value="testSwitchOnAllSecondLvlLayers" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <envs />
-      <patterns />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -572,6 +568,34 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
+    <configuration default="false" name="TestForPopupLayers.testTurnOffPopupWindowAfterTwoSecond" type="JUnit" factoryName="JUnit" temporary="true">
+      <module name="MVK" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestForPopupLayers" />
+      <option name="METHOD_NAME" value="testTurnOffPopupWindowAfterTwoSecond" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -584,19 +608,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -624,6 +635,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -723,18 +747,18 @@
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers,testSwitchSecondLvlCheckBoxOnCheckStateAfterMixedMod and 1 more" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestForTool" />
       <item index="2" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers.testSwitchOnAllSecondLvlLayers" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers and 2 more" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.TestForTool.testMouseMeasureTool" />
-      <item index="6" class="java.lang.String" itemvalue="JUnit.TestForSideBar.testTransitionToMap" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers and 2 more" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestForTool.testMouseMeasureTool" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.TestForSideBar.testTransitionToMap" />
+      <item index="6" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers.testTurnOffPopupWindowAfterTwoSecond" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestForSideBar.testTransitionToMap" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.TestForTool.testMouseMeasureTool" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers and 2 more" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers.testSwitchOnAllSecondLvlLayers" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers.testTurnOffPopupWindowAfterTwoSecond" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestForSideBar.testTransitionToMap" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.TestForTool.testMouseMeasureTool" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestForPopupLayers and 2 more" />
       </list>
     </recent_temporary>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
@@ -790,27 +814,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3759733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38709676" sideWeight="0.4909285" order="9" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34816462" sideWeight="0.4722222" order="9" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.243604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67074525" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2013889" sideWeight="0.6240267" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3759733" sideWeight="0.5090715" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2013889" sideWeight="0.6518354" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34816462" sideWeight="0.5277778" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.243604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6240267" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -881,13 +905,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/TestForMultimap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="74" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/esteru/selenium/factory/samples/NoInitWebDriverSample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="0.0" />
@@ -930,34 +947,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestForTool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="0" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestForPopupLayers.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="34" selection-start="4605" selection-end="4605" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/TestForMultimap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="74" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/utils/MainTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="12" selection-start="1072" selection-end="1075" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/esteru/selenium/factory/WebDriverFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="0" selection-start="2163" selection-end="2163" vertical-scroll-proportion="0.0">
@@ -972,9 +961,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="3" selection-start="1564" selection-end="1564" vertical-scroll-proportion="0.34285715">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/TestForSideBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="16" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.019428572">
+        <state line="41" column="16" selection-start="1175" selection-end="1175" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForTool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="62" column="0" selection-start="2527" selection-end="2527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForMultimap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="74" selection-start="1068" selection-end="1068" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/MainTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="64" selection-start="1008" selection-end="1008" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/TestForPopupLayers.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="94" column="120" selection-start="4036" selection-end="4036" vertical-scroll-proportion="0.9089286">
           <folding />
         </state>
       </provider>

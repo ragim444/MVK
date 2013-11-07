@@ -31,7 +31,8 @@ public class MainTest
   {
       robot = new Robot();
 
-      baseUrl = "http://vodokanal.dvaoblaka.ru/#/pos/80.0764/91.2373/5/1";
+//      baseUrl = "http://vodokanal.dvaoblaka.ru/#/pos/80.0764/91.2373/5/1";
+      baseUrl = "http://192.168.100.174:83/#/pos/67.61/72.13/5/1";
      //baseUrl = "http://vodokanal.dvaoblaka.ru/#/well/Wells/22986";
       path = "/MVK";
       browser = "firefox";

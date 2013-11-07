@@ -72,6 +72,7 @@ public class TestForPopupLayers extends MainTest
     public void testTurnOffPopupWindowAfterTwoSecond () throws  Throwable
     {       openSite();
         mPage.moveMouseOverPopupLayers(mPage.btnPopupLayers,0,0);
+
         mPage.btnPopupLayers.click();
 
         robot.delay(2000);
