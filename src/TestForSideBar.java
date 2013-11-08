@@ -67,6 +67,7 @@ public class TestForSideBar     extends MainTest
         waitForLoadMap(60,path + "/default_map.PNG");
         db.updateDB(sqlURL, databaseName, userName, password, driver, mPage);
 
+
         //Открываем дерево слоев
         if (mPage.popupLayer.getAttribute("style").contains("display: none;")){mPage.btnPopupLayers.click();}
         //Переводим курсор на первый жоемент дерева

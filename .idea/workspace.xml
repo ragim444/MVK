@@ -28,10 +28,10 @@
     <file path="/TestForTool.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382515243277" ignored="false" />
     <file path="D:/SelYANAO/src/TestsForObject.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1380552380743" ignored="false" />
     <file path="/WellPage.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381403131096" ignored="false" />
-    <file path="/TestForSideBar.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1383910761939" ignored="false" />
+    <file path="/TestForSideBar.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1383913473407" ignored="false" />
     <file path="/JdbcUtils.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381831638249" ignored="false" />
     <file path="/BidPage.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1381138256241" ignored="false" />
-    <file path="/Dummy.txt" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1383909679361" ignored="false" />
+    <file path="/Dummy.txt" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1383913452364" ignored="false" />
     <file path="D:/test/src/Shape.java" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382438221199" ignored="false" />
     <file path="D:/test/.idea/misc.xml" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382438225054" ignored="false" />
     <file path="D:/test/.idea/workspace.xml" changelist="9e975b6a-b9b1-40fb-af4b-e9526c8bbac3" time="1382438225054" ignored="false" />
@@ -155,7 +155,7 @@
       <file leaf-file-name="TestForSideBar.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/TestForSideBar.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="17" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.45848376">
+            <state line="69" column="8" selection-start="2349" selection-end="2349" vertical-scroll-proportion="0.5063001">
               <folding />
             </state>
           </provider>
@@ -165,9 +165,7 @@
         <entry file="file://$PROJECT_DIR$/src/utils/MouseOnMap.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="19" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -203,14 +201,7 @@
         <entry file="file://$PROJECT_DIR$/src/utils/MainTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="51" column="121" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#2370#2514#0" expanded="true" />
-                <element signature="e#2512#2513#0" expanded="true" />
-                <element signature="e#3205#3344#0" expanded="true" />
-                <element signature="e#3342#3343#0" expanded="true" />
-                <element signature="e#3436#3623#0" expanded="true" />
-                <element signature="e#3621#3622#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -227,7 +218,7 @@
       <file leaf-file-name="TestForPopupLayers.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/TestForPopupLayers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="117" column="0" selection-start="5242" selection-end="5242" vertical-scroll-proportion="-16.24">
+            <state line="117" column="0" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -283,9 +274,9 @@
         <option value="$PROJECT_DIR$/src/utils/MouseOnMap.java" />
         <option value="$PROJECT_DIR$/src/TestForPopupLayers.java" />
         <option value="$PROJECT_DIR$/src/Page/MainPage.java" />
-        <option value="$PROJECT_DIR$/src/TestForSideBar.java" />
         <option value="$PROJECT_DIR$/src/TestForTool.java" />
         <option value="$PROJECT_DIR$/src/utils/MainTest.java" />
+        <option value="$PROJECT_DIR$/src/TestForSideBar.java" />
       </list>
     </option>
   </component>
@@ -408,14 +399,14 @@
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.generateIdeaHomeProperty" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="OverrideImplement.combined" value="true" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="OverrideImplement.combined" value="true" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
-    <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="GenerateAntBuildDialog.generateSingleFile" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="GenerateAntBuildDialog.inclineRuntiemClasspath" value="false" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="build" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -429,8 +420,8 @@
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GenerateAntBuildDialog.backupFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -572,19 +563,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -610,6 +588,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -787,7 +778,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="ASM" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.243604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.67074525" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -797,6 +787,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.243604" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2497332" sideWeight="0.6240267" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -929,7 +920,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestForPopupLayers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="117" column="0" selection-start="5242" selection-end="5242" vertical-scroll-proportion="-16.24">
+        <state line="117" column="0" selection-start="5242" selection-end="5242" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -937,9 +928,7 @@
     <entry file="file://$PROJECT_DIR$/src/utils/MouseOnMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="19" column="0" selection-start="478" selection-end="478" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -953,14 +942,7 @@
     <entry file="file://$PROJECT_DIR$/src/utils/MainTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="51" column="121" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#2370#2514#0" expanded="true" />
-            <element signature="e#2512#2513#0" expanded="true" />
-            <element signature="e#3205#3344#0" expanded="true" />
-            <element signature="e#3342#3343#0" expanded="true" />
-            <element signature="e#3436#3623#0" expanded="true" />
-            <element signature="e#3621#3622#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -973,7 +955,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/TestForSideBar.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="17" selection-start="1344" selection-end="1344" vertical-scroll-proportion="0.45848376">
+        <state line="69" column="8" selection-start="2349" selection-end="2349" vertical-scroll-proportion="0.5063001">
           <folding />
         </state>
       </provider>
