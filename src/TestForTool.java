@@ -45,7 +45,8 @@ public class TestForTool extends MainTest
             ImageUtils.takeScreenshotElement(driver,driver.findElement(By.id("dvmaps_interactive_map")),path+"/points/MouseZoomTool"+"/screen_plus.png");
 
             //Ожидаем загрузки карты после зумирования
-           waitForLoadMap(30,path+"/points/MouseZoomTool/zoom_plus.png");
+//           waitForLoadMap(30,path+"/points/MouseZoomTool/zoom_plus.png");
+            waitForLoadMap();
 
             assertTrue("Шаг1: Позиция слайдера не измениласть: до=" + position + " после=" + mPage.getZoomSliderPosition(), position != mPage.getZoomSliderPosition());
             position = mPage.getZoomSliderPosition();
@@ -53,7 +54,8 @@ public class TestForTool extends MainTest
             my_mouse.mouseWheelDown(1);
 
             //Ожидаем изменение положения слайдера масштаба, соответствующее 50%
-           waitForLoadMap(30,path + "//points/MouseZoomTool/zoom_minus.png");
+//           waitForLoadMap(30,path + "//points/MouseZoomTool/zoom_minus.png");
+            waitForLoadMap();
             assertTrue("Шаг2: Позиция слайдера не измениласть:  до="+position+" после="+mPage.getZoomSliderPosition(), position != mPage.getZoomSliderPosition());
         }
 

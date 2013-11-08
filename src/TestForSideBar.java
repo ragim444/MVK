@@ -37,19 +37,21 @@ public class TestForSideBar     extends MainTest
     @Test
     public void testTransitionToMap () throws Throwable
     {
-        //openSite();
-      //  waitForLoadMap(60,path + "/default_map.PNG");
-        db.updateDB(sqlURL, databaseName, userName, password, driver, mPage);
-     //   mPage.requestList.get(0).click();
-      //  waitForLoadMap(40,path+"/points/bid/bid.png");
+        openSite();
+        System.out.println(mPage.mapLoader.getAttribute("style").toString());
+        waitForLoadMap();
+       // db.updateDB(sqlURL, databaseName, userName, password, driver, mPage);
+        mPage.requestList.get(0).click();
+        waitForLoadMap();
     }
 
     @Test
     public void testCheckOnControlHint () throws Throwable
     {
         openSite();
-        waitForLoadMap(60,path + "/default_map.PNG");
-        db.updateDB(sqlURL, databaseName, userName, password, driver, mPage);
+//        waitForLoadMap(60,path + "/default_map.PNG");
+        waitForLoadMap();
+      //  db.updateDB(sqlURL, databaseName, userName, password, driver, mPage);
         mPage.moveMouseOverPopupLayers(mPage.btnOnCheck, 0, 80);
 
         assertFalse("Подсказка 'на контроле', не появилась", mPage.hintWindow.getAttribute("style").equals("display: none;"));

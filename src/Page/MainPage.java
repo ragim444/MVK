@@ -79,6 +79,8 @@ public class MainPage
     @FindBy (css = "div#sidebarZ div.sz_toggle_wrapper a.sz_toggle_show")
     public WebElement btnShowSideBar;
 
+    @FindBy (css = "div#dvmaps_header_toolbar button#btnPopupLayers.btn img")
+    public WebElement mapLoader;
 
 
     //Перемещает курсор мыши над чекбоксом, первого элемента дерева, первого уровня
